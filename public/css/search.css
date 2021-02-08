@@ -1,0 +1,50 @@
+body{
+    background-color: #dddddd;
+}
+
+h1 {
+    font-family: Verdana, arial;
+    margin: 0px;
+}
+
+.select2{
+    width: 200px;
+}
+
+#btnSearch{
+    color: white;
+    background-color: #4CAF50;
+    height: 28px;
+}
+
+.displayTable{
+    width: 100%;
+    font-family: Verdana, arial;
+}
+
+.displayTable th{
+    background-color: darkolivegreen;
+    color: white;
+
+}
+
+.displayTable td{
+    text-align: center;
+}
+
+.displayTable td:first-child{
+    text-align: left;
+}
+
+.displayTable tfoot{
+    font-size: 8pt;
+}
+
+#tdPaginator{
+    text-align: center;
+}
+
+#divError2{
+    font-size: 24pt;
+    font-family: Verdana;
+}

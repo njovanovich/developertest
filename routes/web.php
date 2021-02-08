@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect('/search');
 });
+
+Route::get('/search', function () {
+    return view('search', ['api_key' => env('OMDB_API')]);
+});
+
